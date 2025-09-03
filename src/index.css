@@ -4,41 +4,56 @@
 
 @layer base {
   body {
-    @apply bg-white text-trinity-primary font-sans;
+    @apply bg-trinity-primary text-white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Ensure all text has proper contrast by default */
+  * {
+    color: inherit;
+  }
+  
+  /* Override for sections with light backgrounds */
+  .bg-white, .bg-trinity-gray, .bg-trinity-primary-light, .bg-trinity-primary-lighter {
+    color: #1a1a1a;
+  }
+  
+  .bg-white *, .bg-trinity-gray *, .bg-trinity-primary-light *, .bg-trinity-primary-lighter * {
+    color: #1a1a1a;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-trinity-secondary hover:bg-trinity-secondary-dark text-white font-bold py-2 px-4 rounded transition-colors duration-200;
+    @apply bg-trinity-accent hover:bg-trinity-primary-lighter text-white font-bold py-2 px-4 rounded transition-colors duration-200;
   }
 
   .btn-secondary {
-    @apply bg-trinity-primary hover:bg-trinity-primary-dark text-white font-bold py-2 px-4 rounded transition-colors duration-200;
+    @apply bg-trinity-primary-light hover:bg-trinity-primary text-white font-bold py-2 px-4 rounded transition-colors duration-200;
   }
 
   .btn-accent {
-    @apply bg-trinity-secondary-light hover:bg-trinity-secondary text-white font-bold py-2 px-4 rounded transition-colors duration-200;
+    @apply bg-trinity-gray-light hover:bg-trinity-primary-lighter text-white font-bold py-2 px-4 rounded transition-colors duration-200;
   }
 
   .card {
-    @apply bg-white rounded-lg shadow-lg p-6 border border-trinity-gray-dark;
+    @apply bg-trinity-primary-light rounded-lg shadow-lg p-6 border border-trinity-gray-dark text-white;
   }
 
   .card-hover {
-    @apply bg-white rounded-lg shadow-lg p-6 border border-trinity-gray-dark hover:shadow-xl hover:border-trinity-primary-lighter transition-all duration-200;
+    @apply bg-trinity-primary-light rounded-lg shadow-lg p-6 border border-trinity-gray-dark hover:shadow-xl hover:border-trinity-primary-lighter transition-all duration-200 text-white;
   }
 
   .section-title {
-    @apply text-3xl font-bold text-trinity-primary mb-6 text-center;
+    @apply text-3xl font-bold text-white mb-6 text-center;
   }
 
   .section-subtitle {
-    @apply text-xl font-semibold text-trinity-primary-light mb-4 text-center;
+    @apply text-xl font-semibold text-trinity-text-light mb-4 text-center;
   }
 
   .text-accent {
-    @apply text-trinity-secondary;
+    @apply text-trinity-text-light;
   }
 
   .bg-primary-light {
@@ -55,5 +70,22 @@
 
   .border-primary-light {
     @apply border-trinity-primary-light;
+  }
+
+  /* Text contrast utilities */
+  .text-on-dark {
+    @apply text-white;
+  }
+
+  .text-on-light {
+    @apply text-trinity-primary;
+  }
+
+  .text-muted {
+    @apply text-trinity-text-light;
+  }
+
+  .text-muted-dark {
+    @apply text-trinity-gray-light;
   }
 }

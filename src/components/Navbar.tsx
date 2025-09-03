@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
               <div className="w-10 h-10 bg-trinity-secondary rounded-full flex items-center justify-center mr-3">
                 <span className="text-white font-bold text-lg">T</span>
               </div>
-              <span className="text-white font-bold text-xl">Trinity Band</span>
+              <span className="text-white font-bold text-xl">Trinity Trojan Band</span>
             </Link>
           </div>
 
