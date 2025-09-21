@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-trinity-primary-light mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-trinity-primary-lighter text-sm">
-              © 2024 Trinity High School Band. All rights reserved.
+              © 2025 Trinity High School Band. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-trinity-primary-lighter hover:text-trinity-secondary text-sm transition-colors duration-200">Privacy Policy</a>
