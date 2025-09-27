@@ -14,7 +14,7 @@ const DropShipStore: React.FC = () => {
       </section>
 
       {/* Product Categories */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Shop by Category</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -24,8 +24,8 @@ const DropShipStore: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-trinity-primary group-hover:text-trinity-secondary transition-colors duration-200">Apparel</h3>
-              <p className="text-trinity-primary-light text-sm">T-shirts, hoodies, and more</p>
+              <h3 className="text-lg font-semibold text-white group-hover:text-trinity-secondary transition-colors duration-200">Apparel</h3>
+              <p className="text-trinity-text-light text-sm">T-shirts, hoodies, and more</p>
             </div>
 
             <div className="card-hover text-center group cursor-pointer">
@@ -34,8 +34,8 @@ const DropShipStore: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-trinity-primary group-hover:text-trinity-secondary transition-colors duration-200">Accessories</h3>
-              <p className="text-trinity-primary-light text-sm">Bags, stickers, and gear</p>
+              <h3 className="text-lg font-semibold text-white group-hover:text-trinity-secondary transition-colors duration-200">Accessories</h3>
+              <p className="text-trinity-text-light text-sm">Bags, stickers, and gear</p>
             </div>
 
             <div className="card-hover text-center group cursor-pointer">
@@ -44,8 +44,8 @@ const DropShipStore: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-trinity-primary group-hover:text-trinity-secondary transition-colors duration-200">Music Supplies</h3>
-              <p className="text-trinity-primary-light text-sm">Sheet music and instruments</p>
+              <h3 className="text-lg font-semibold text-white group-hover:text-trinity-secondary transition-colors duration-200">Music Supplies</h3>
+              <p className="text-trinity-text-light text-sm">Sheet music and instruments</p>
             </div>
 
             <div className="card-hover text-center group cursor-pointer">
@@ -54,8 +54,8 @@ const DropShipStore: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-trinity-primary group-hover:text-trinity-secondary transition-colors duration-200">Gifts</h3>
-              <p className="text-trinity-primary-light text-sm">Perfect for band supporters</p>
+              <h3 className="text-lg font-semibold text-white group-hover:text-trinity-secondary transition-colors duration-200">Gifts</h3>
+              <p className="text-trinity-text-light text-sm">Perfect for band supporters</p>
             </div>
           </div>
         </div>
@@ -73,8 +73,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Trinity Band T-Shirt</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Classic cotton t-shirt with Trinity Band logo</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Trinity Band T-Shirt</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Classic cotton t-shirt with Trinity Band logo</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$25.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -89,8 +89,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Hooded Sweatshirt</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Warm and comfortable with embroidered logo</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Hooded Sweatshirt</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Warm and comfortable with embroidered logo</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$45.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -105,8 +105,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Band Sticker Pack</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Set of 5 vinyl stickers for cars and laptops</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Band Sticker Pack</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Set of 5 vinyl stickers for cars and laptops</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$12.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -121,8 +121,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Water Bottle</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Insulated water bottle with Trinity Band design</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Water Bottle</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Insulated water bottle with Trinity Band design</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$18.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -137,8 +137,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Canvas Tote Bag</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Eco-friendly tote bag perfect for shopping</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Canvas Tote Bag</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Eco-friendly tote bag perfect for shopping</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$22.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -153,8 +153,8 @@ const DropShipStore: React.FC = () => {
                 </svg>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-trinity-primary mb-2">Phone Case</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">Protective phone case with band logo</p>
+                <h3 className="text-lg font-semibold text-white mb-2">Phone Case</h3>
+                <p className="text-trinity-text-light text-sm mb-3">Protective phone case with band logo</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xl font-bold text-trinity-secondary">$28.00</span>
                   <button className="btn-primary px-4 py-2">Add to Cart</button>
@@ -166,10 +166,10 @@ const DropShipStore: React.FC = () => {
       </section>
 
       {/* Cart Preview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Shopping Cart</h2>
-          <div className="bg-trinity-gray rounded-lg p-6">
+          <div className="bg-trinity-primary rounded-lg p-6">
             <div className="space-y-4">
               <div className="flex items-center justify-between p-4 bg-white rounded-lg">
                 <div className="flex items-center">

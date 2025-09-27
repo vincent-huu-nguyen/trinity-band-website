@@ -14,7 +14,7 @@ const Volunteers: React.FC = () => {
       </section>
 
       {/* Volunteer Opportunities */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Volunteer Opportunities</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -24,11 +24,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Event Support</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Event Support</h3>
+              <p className="text-trinity-text-light mb-4">
                 Help with concert setup, ticket sales, ushering, and event coordination
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> 2-4 hours per event</p>
                 <p><strong>Frequency:</strong> Monthly during concert season</p>
               </div>
@@ -40,11 +40,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Transportation</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Transportation</h3>
+              <p className="text-trinity-text-light mb-4">
                 Drive students to competitions, festivals, and off-campus performances
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> 4-8 hours per trip</p>
                 <p><strong>Frequency:</strong> 3-5 times per year</p>
               </div>
@@ -56,11 +56,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Fundraising</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Fundraising</h3>
+              <p className="text-trinity-text-light mb-4">
                 Assist with fundraising events, donor relations, and grant writing
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> 5-10 hours per month</p>
                 <p><strong>Frequency:</strong> Ongoing throughout the year</p>
               </div>
@@ -72,11 +72,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Music Library</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Music Library</h3>
+              <p className="text-trinity-text-light mb-4">
                 Organize sheet music, maintain instrument inventory, and assist with repairs
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> 2-3 hours per week</p>
                 <p><strong>Frequency:</strong> Weekly during school year</p>
               </div>
@@ -88,11 +88,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Administrative</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Administrative</h3>
+              <p className="text-trinity-text-light mb-4">
                 Help with data entry, newsletter distribution, and social media management
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> 3-5 hours per week</p>
                 <p><strong>Frequency:</strong> Weekly, flexible schedule</p>
               </div>
@@ -105,11 +105,11 @@ const Volunteers: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Special Projects</h3>
-              <p className="text-trinity-primary-light mb-4">
+              <h3 className="text-xl font-semibold text-white mb-3">Special Projects</h3>
+              <p className="text-trinity-text-light mb-4">
                 Contribute to special initiatives like band camp, competitions, or community outreach
               </p>
-              <div className="text-sm text-trinity-primary-light">
+              <div className="text-sm text-trinity-text-light">
                 <p><strong>Time Commitment:</strong> Varies by project</p>
                 <p><strong>Frequency:</strong> As needed</p>
               </div>
@@ -126,15 +126,15 @@ const Volunteers: React.FC = () => {
             <div className="card-hover border-l-4 border-trinity-secondary">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-trinity-primary mb-2">Spring Concert Setup</h3>
-                  <p className="text-trinity-primary-light">Help prepare the auditorium and assist with logistics</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Spring Concert Setup</h3>
+                  <p className="text-trinity-text-light">Help prepare the auditorium and assist with logistics</p>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-bold text-trinity-secondary">14</div>
-                  <div className="text-sm text-trinity-primary-light">MAY</div>
+                  <div className="text-sm text-trinity-text-light">MAY</div>
                 </div>
               </div>
-              <div className="space-y-2 text-sm text-trinity-primary-light mb-4">
+              <div className="space-y-2 text-sm text-trinity-text-light mb-4">
                 <div className="flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -155,15 +155,15 @@ const Volunteers: React.FC = () => {
             <div className="card-hover border-l-4 border-trinity-secondary">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-trinity-primary mb-2">Band Camp Support</h3>
-                  <p className="text-trinity-primary-light">Assist with meals, supervision, and logistics during summer camp</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Band Camp Support</h3>
+                  <p className="text-trinity-text-light">Assist with meals, supervision, and logistics during summer camp</p>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-bold text-trinity-secondary">20</div>
-                  <div className="text-sm text-trinity-primary-light">JUL</div>
+                  <div className="text-sm text-trinity-text-light">JUL</div>
                 </div>
               </div>
-              <div className="space-y-2 text-sm text-trinity-primary-light mb-4">
+              <div className="space-y-2 text-sm text-trinity-text-light mb-4">
                 <div className="flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -185,14 +185,14 @@ const Volunteers: React.FC = () => {
       </section>
 
       {/* Volunteer Sign-up Form */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Become a Volunteer</h2>
-          <div className="bg-trinity-gray rounded-lg p-8">
+          <div className="bg-trinity-primary rounded-lg p-8">
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="firstName" className="block text-sm font-medium text-white mb-2">
                     First Name
                   </label>
                   <input
@@ -203,7 +203,7 @@ const Volunteers: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="lastName" className="block text-sm font-medium text-white mb-2">
                     Last Name
                   </label>
                   <input
@@ -215,7 +215,7 @@ const Volunteers: React.FC = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   Email Address
                 </label>
                 <input
@@ -226,7 +226,7 @@ const Volunteers: React.FC = () => {
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="phone" className="block text-sm font-medium text-white mb-2">
                   Phone Number
                 </label>
                 <input
@@ -237,38 +237,38 @@ const Volunteers: React.FC = () => {
                 />
               </div>
               <div>
-                <label htmlFor="interests" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="interests" className="block text-sm font-medium text-white mb-2">
                   Areas of Interest
                 </label>
                 <div className="grid grid-cols-2 gap-3">
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Event Support</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Event Support</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Transportation</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Transportation</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Fundraising</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Fundraising</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Music Library</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Music Library</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Administrative</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Administrative</span>
                   </label>
                   <label className="flex items-center">
                     <input type="checkbox" className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded" />
-                    <span className="ml-2 text-sm text-trinity-primary-light">Special Projects</span>
+                    <span className="ml-2 text-sm text-trinity-text-light">Special Projects</span>
                   </label>
                 </div>
               </div>
               <div>
-                <label htmlFor="availability" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="availability" className="block text-sm font-medium text-white mb-2">
                   Availability
                 </label>
                 <select
@@ -283,7 +283,7 @@ const Volunteers: React.FC = () => {
                 </select>
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                   Additional Information
                 </label>
                 <textarea

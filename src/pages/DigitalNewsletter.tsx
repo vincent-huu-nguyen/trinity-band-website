@@ -14,18 +14,18 @@ const DigitalNewsletter: React.FC = () => {
       </section>
 
       {/* Subscription Form */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Subscribe to Our Newsletter</h2>
-          <div className="bg-trinity-gray rounded-lg p-8">
-            <p className="text-center text-trinity-primary-light mb-8 text-lg">
+          <div className="bg-trinity-primary rounded-lg p-8">
+            <p className="text-center text-trinity-text-light mb-8 text-lg">
               Get monthly updates delivered directly to your inbox featuring student achievements, 
               upcoming events, and behind-the-scenes stories.
             </p>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="firstName" className="block text-sm font-medium text-white mb-2">
                     First Name
                   </label>
                   <input
@@ -36,7 +36,7 @@ const DigitalNewsletter: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="lastName" className="block text-sm font-medium text-white mb-2">
                     Last Name
                   </label>
                   <input
@@ -48,7 +48,7 @@ const DigitalNewsletter: React.FC = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   Email Address
                 </label>
                 <input
@@ -59,7 +59,7 @@ const DigitalNewsletter: React.FC = () => {
                 />
               </div>
               <div>
-                <label htmlFor="role" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="role" className="block text-sm font-medium text-white mb-2">
                   I am a...
                 </label>
                 <select
@@ -80,7 +80,7 @@ const DigitalNewsletter: React.FC = () => {
                   id="consent"
                   className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded"
                 />
-                <label htmlFor="consent" className="ml-2 text-sm text-trinity-primary-light">
+                <label htmlFor="consent" className="ml-2 text-sm text-trinity-text-light">
                   I agree to receive email communications from Trinity Band. I can unsubscribe at any time.
                 </label>
               </div>
@@ -239,14 +239,14 @@ const DigitalNewsletter: React.FC = () => {
       </section>
 
       {/* Newsletter Archives */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Newsletter Archives</h2>
-          <div className="bg-trinity-gray rounded-lg p-8">
+          <div className="bg-trinity-primary rounded-lg p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">March 2024</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">March 2024</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   Spring concert preparations, student achievements, and upcoming events
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">
@@ -254,9 +254,9 @@ const DigitalNewsletter: React.FC = () => {
                 </button>
               </div>
 
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">February 2024</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">February 2024</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   Winter concert recap, competition results, and volunteer appreciation
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">
@@ -264,9 +264,9 @@ const DigitalNewsletter: React.FC = () => {
                 </button>
               </div>
 
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">January 2024</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">January 2024</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   New year goals, program updates, and student spotlights
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">
@@ -274,9 +274,9 @@ const DigitalNewsletter: React.FC = () => {
                 </button>
               </div>
 
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">December 2023</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">December 2023</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   Holiday concert highlights, year-end reflections, and winter break plans
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">
@@ -284,9 +284,9 @@ const DigitalNewsletter: React.FC = () => {
                 </button>
               </div>
 
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">November 2023</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">November 2023</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   Fall concert success, marching band achievements, and community events
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">
@@ -294,9 +294,9 @@ const DigitalNewsletter: React.FC = () => {
                 </button>
               </div>
 
-              <div className="bg-white p-4 rounded-lg">
-                <h3 className="font-semibold text-trinity-primary mb-2">October 2023</h3>
-                <p className="text-trinity-primary-light text-sm mb-3">
+              <div className="bg-trinity-gray p-4 rounded-lg">
+                <h3 className="font-semibold text-white mb-2">October 2023</h3>
+                <p className="text-trinity-text-light text-sm mb-3">
                   Homecoming parade, football game performances, and student leadership
                 </p>
                 <button className="text-trinity-secondary hover:text-trinity-secondary-dark text-sm font-medium">

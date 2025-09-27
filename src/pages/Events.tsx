@@ -14,22 +14,22 @@ const Events: React.FC = () => {
       </section>
 
       {/* Upcoming Events */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Upcoming Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card-hover border-l-4 border-trinity-secondary">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-trinity-primary mb-2">Spring Concert</h3>
-                  <p className="text-trinity-primary-light">Annual spring performance featuring all ensembles</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Spring Concert</h3>
+                  <p className="text-trinity-text-light">Annual spring performance featuring all ensembles</p>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-bold text-trinity-secondary">15</div>
-                  <div className="text-sm text-trinity-primary-light">MAY</div>
+                  <div className="text-sm text-trinity-text-light">MAY</div>
                 </div>
               </div>
-              <div className="space-y-2 text-sm text-trinity-primary-light">
+              <div className="space-y-2 text-sm text-trinity-text-light">
                 <div className="flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -50,15 +50,15 @@ const Events: React.FC = () => {
             <div className="card-hover border-l-4 border-trinity-secondary">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-trinity-primary mb-2">Band Camp</h3>
-                  <p className="text-trinity-primary-light">Intensive summer training for marching band</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Band Camp</h3>
+                  <p className="text-trinity-text-light">Intensive summer training for marching band</p>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-bold text-trinity-secondary">20</div>
-                  <div className="text-sm text-trinity-primary-light">JUL</div>
+                  <div className="text-sm text-trinity-text-light">JUL</div>
                 </div>
               </div>
-              <div className="space-y-2 text-sm text-trinity-primary-light">
+              <div className="space-y-2 text-sm text-trinity-text-light">
                 <div className="flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -79,15 +79,15 @@ const Events: React.FC = () => {
             <div className="card-hover border-l-4 border-trinity-secondary">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-trinity-primary mb-2">Football Game</h3>
-                  <p className="text-trinity-primary-light">Marching band performance at home game</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">Football Game</h3>
+                  <p className="text-trinity-text-light">Marching band performance at home game</p>
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-bold text-trinity-secondary">28</div>
-                  <div className="text-sm text-trinity-primary-light">SEP</div>
+                  <div className="text-sm text-trinity-text-light">SEP</div>
                 </div>
               </div>
-              <div className="space-y-2 text-sm text-trinity-primary-light">
+              <div className="space-y-2 text-sm text-trinity-text-light">
                 <div className="flex items-center">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -118,7 +118,7 @@ const Events: React.FC = () => {
             </div>
             <div className="grid grid-cols-7 gap-1 mb-4">
               {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((day) => (
-                <div key={day} className="text-center text-sm font-semibold text-trinity-primary-light py-2">
+                <div key={day} className="text-center text-sm font-semibold text-trinity-text-light py-2">
                   {day}
                 </div>
               ))}
@@ -140,7 +140,7 @@ const Events: React.FC = () => {
               })}
             </div>
             <div className="mt-6 text-center">
-              <p className="text-trinity-primary-light text-sm">
+              <p className="text-trinity-text-light text-sm">
                 <span className="inline-block w-3 h-3 bg-trinity-secondary rounded mr-2"></span>
                 Events scheduled
               </p>
@@ -150,7 +150,7 @@ const Events: React.FC = () => {
       </section>
 
       {/* Recent Past Events */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Recent Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -162,15 +162,15 @@ const Events: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-trinity-primary">Winter Concert</h3>
-                  <p className="text-trinity-primary-light text-sm">December 15, 2023</p>
+                  <h3 className="text-lg font-semibold text-white">Winter Concert</h3>
+                  <p className="text-trinity-text-light text-sm">December 15, 2023</p>
                 </div>
               </div>
-              <p className="text-trinity-primary-light mb-4">
+              <p className="text-trinity-text-light mb-4">
                 A beautiful evening of holiday music featuring our Concert Band and Jazz Ensemble. 
                 The performance included traditional carols and contemporary arrangements.
               </p>
-              <div className="flex items-center text-sm text-trinity-primary-light">
+              <div className="flex items-center text-sm text-trinity-text-light">
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -187,15 +187,15 @@ const Events: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-trinity-primary">State Competition</h3>
-                  <p className="text-trinity-primary-light text-sm">November 8, 2023</p>
+                  <h3 className="text-lg font-semibold text-white">State Competition</h3>
+                  <p className="text-trinity-text-light text-sm">November 8, 2023</p>
                 </div>
               </div>
-              <p className="text-trinity-primary-light mb-4">
+              <p className="text-trinity-text-light mb-4">
                 Our Marching Band achieved Superior ratings at the State Marching Band Competition. 
                 The performance showcased months of hard work and dedication.
               </p>
-              <div className="flex items-center text-sm text-trinity-primary-light">
+              <div className="flex items-center text-sm text-trinity-text-light">
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />

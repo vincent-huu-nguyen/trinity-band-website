@@ -14,7 +14,7 @@ const Donations: React.FC = () => {
       </section>
 
       {/* Impact Areas */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Where Your Donations Make a Difference</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -24,8 +24,8 @@ const Donations: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Instrument Purchases</h3>
-              <p className="text-trinity-primary-light">
+              <h3 className="text-xl font-semibold text-white mb-3">Instrument Purchases</h3>
+              <p className="text-trinity-text-light">
                 Help us acquire quality instruments and equipment for students who cannot afford their own
               </p>
             </div>
@@ -35,8 +35,8 @@ const Donations: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Competition Travel</h3>
-              <p className="text-trinity-primary-light">
+              <h3 className="text-xl font-semibold text-white mb-3">Competition Travel</h3>
+              <p className="text-trinity-text-light">
                 Support our students' participation in regional and national competitions and festivals
               </p>
             </div>
@@ -46,8 +46,8 @@ const Donations: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-trinity-primary mb-3">Educational Resources</h3>
-              <p className="text-trinity-primary-light">
+              <h3 className="text-xl font-semibold text-white mb-3">Educational Resources</h3>
+              <p className="text-trinity-text-light">
                 Fund music theory materials, sheet music, and professional development opportunities
               </p>
             </div>
@@ -64,9 +64,9 @@ const Donations: React.FC = () => {
               <div className="bg-trinity-primary-light text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
                 <h3 className="text-lg font-semibold">Friend</h3>
               </div>
-              <div className="text-3xl font-bold text-trinity-primary mb-2">$25</div>
-              <p className="text-trinity-primary-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-primary-light space-y-2 mb-6">
+              <div className="text-3xl font-bold text-white mb-2">$25</div>
+              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
+              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
                 <li>• Recognition in program</li>
                 <li>• Newsletter updates</li>
                 <li>• Invitation to events</li>
@@ -78,9 +78,9 @@ const Donations: React.FC = () => {
               <div className="bg-trinity-secondary text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
                 <h3 className="text-lg font-semibold">Supporter</h3>
               </div>
-              <div className="text-3xl font-bold text-trinity-primary mb-2">$50</div>
-              <p className="text-trinity-primary-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-primary-light space-y-2 mb-6">
+              <div className="text-3xl font-bold text-white mb-2">$50</div>
+              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
+              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
                 <li>• All Friend benefits</li>
                 <li>• Name on donor wall</li>
                 <li>• VIP event seating</li>
@@ -93,9 +93,9 @@ const Donations: React.FC = () => {
               <div className="bg-trinity-primary text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
                 <h3 className="text-lg font-semibold">Patron</h3>
               </div>
-              <div className="text-3xl font-bold text-trinity-primary mb-2">$100</div>
-              <p className="text-trinity-primary-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-primary-light space-y-2 mb-6">
+              <div className="text-3xl font-bold text-white mb-2">$100</div>
+              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
+              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
                 <li>• All Supporter benefits</li>
                 <li>• Meet & greet with director</li>
                 <li>• Exclusive concert access</li>
@@ -108,9 +108,9 @@ const Donations: React.FC = () => {
               <div className="bg-trinity-primary-dark text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
                 <h3 className="text-lg font-semibold">Benefactor</h3>
               </div>
-              <div className="text-3xl font-bold text-trinity-primary mb-2">$250</div>
-              <p className="text-trinity-primary-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-primary-light space-y-2 mb-6">
+              <div className="text-3xl font-bold text-white mb-2">$250</div>
+              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
+              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
                 <li>• All Patron benefits</li>
                 <li>• Instrument naming rights</li>
                 <li>• Board meeting invitation</li>
@@ -123,14 +123,14 @@ const Donations: React.FC = () => {
       </section>
 
       {/* Custom Donation Form */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Make a Custom Donation</h2>
-          <div className="bg-trinity-gray rounded-lg p-8">
+          <div className="bg-trinity-primary rounded-lg p-8">
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="firstName" className="block text-sm font-medium text-white mb-2">
                     First Name
                   </label>
                   <input
@@ -141,7 +141,7 @@ const Donations: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-trinity-primary mb-2">
+                  <label htmlFor="lastName" className="block text-sm font-medium text-white mb-2">
                     Last Name
                   </label>
                   <input
@@ -153,7 +153,7 @@ const Donations: React.FC = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   Email Address
                 </label>
                 <input
@@ -164,11 +164,11 @@ const Donations: React.FC = () => {
                 />
               </div>
               <div>
-                <label htmlFor="amount" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="amount" className="block text-sm font-medium text-white mb-2">
                   Donation Amount
                 </label>
                 <div className="relative">
-                  <span className="absolute left-3 top-2 text-trinity-primary-light">$</span>
+                  <span className="absolute left-3 top-2 text-trinity-text-light">$</span>
                   <input
                     type="number"
                     id="amount"
@@ -180,7 +180,7 @@ const Donations: React.FC = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="designation" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="designation" className="block text-sm font-medium text-white mb-2">
                   Designation (Optional)
                 </label>
                 <select
@@ -195,7 +195,7 @@ const Donations: React.FC = () => {
                 </select>
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-trinity-primary mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                   Message (Optional)
                 </label>
                 <textarea
@@ -211,7 +211,7 @@ const Donations: React.FC = () => {
                   id="anonymous"
                   className="w-4 h-4 text-trinity-secondary focus:ring-trinity-secondary border-trinity-gray-dark rounded"
                 />
-                <label htmlFor="anonymous" className="ml-2 text-sm text-trinity-primary-light">
+                <label htmlFor="anonymous" className="ml-2 text-sm text-trinity-text-light">
                   Make this donation anonymous
                 </label>
               </div>
