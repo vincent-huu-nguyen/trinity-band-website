@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import bandpic from '../assets/bandpic.png';
 
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-trinity-primary via-trinity-primary-dark to-trinity-primary-darker text-white py-20">
+      <section 
+        className="relative text-white py-20 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${bandpic})`
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Welcome to <span className="text-trinity-secondary">Trinity Trojan Band</span>
