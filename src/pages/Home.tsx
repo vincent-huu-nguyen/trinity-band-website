@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bandpic from '../assets/bandpic.png';
+import trinitymarch from '../assets/trinitymarch.png';
+import trinityflagpic from '../assets/trinityflagpic.png';
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Home: React.FC = () => {
       <section 
         className="relative text-white py-20 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${bandpic})`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${trinitymarch})`
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -137,6 +138,19 @@ const Home: React.FC = () => {
                 <h3 className="font-semibold text-white">Sponsors</h3>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Flag Image */}
+      <section className="py-8 bg-trinity-primary-light">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center">
+            <img 
+              src={trinityflagpic} 
+              alt="Trinity Trojan Band Flag" 
+              className="max-w-full h-auto rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </section>
