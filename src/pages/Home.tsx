@@ -36,18 +36,20 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-6 text-center">Upcoming Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="card-hover border-l-4 border-trinity-secondary">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h3 className="text-lg font-semibold text-white mb-1">Spring Concert</h3>
-                  <p className="text-sm text-trinity-text-light">Annual spring performance</p>
+                  <h3 className="text-lg font-semibold text-black mb-1">Spring Concert</h3>
+                  <p className="text-sm text-black">Annual spring performance</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-xl font-bold text-trinity-secondary">15</div>
-                  <div className="text-xs text-trinity-text-light">MAY</div>
+                  <div className="text-xl font-bold text-black">15</div>
+                  <div className="text-xs text-black">MAY</div>
                 </div>
               </div>
-              <div className="text-sm text-trinity-text-light">
+              <div className="text-sm text-black">
                 <div className="flex items-center mb-1">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -62,19 +64,22 @@ const Home: React.FC = () => {
                   School Auditorium
                 </div>
               </div>
+              </div>
             </div>
-            <div className="card-hover border-l-4 border-trinity-secondary">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h3 className="text-lg font-semibold text-white mb-1">Band Camp</h3>
-                  <p className="text-sm text-trinity-text-light">Summer training</p>
+                  <h3 className="text-lg font-semibold text-black mb-1">Band Camp</h3>
+                  <p className="text-sm text-black">Summer training</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-xl font-bold text-trinity-secondary">20</div>
-                  <div className="text-xs text-trinity-text-light">JUL</div>
+                  <div className="text-xl font-bold text-black">20</div>
+                  <div className="text-xs text-black">JUL</div>
                 </div>
               </div>
-              <div className="text-sm text-trinity-text-light">
+              <div className="text-sm text-black">
                 <div className="flex items-center mb-1">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -89,19 +94,22 @@ const Home: React.FC = () => {
                   School Campus
                 </div>
               </div>
+              </div>
             </div>
-            <div className="card-hover border-l-4 border-trinity-secondary">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h3 className="text-lg font-semibold text-white mb-1">Football Game</h3>
-                  <p className="text-sm text-trinity-text-light">Marching band performance</p>
+                  <h3 className="text-lg font-semibold text-black mb-1">Football Game</h3>
+                  <p className="text-sm text-black">Marching band performance</p>
                 </div>
                 <div className="text-right">
-                  <div className="text-xl font-bold text-trinity-secondary">28</div>
-                  <div className="text-xs text-trinity-text-light">SEP</div>
+                  <div className="text-xl font-bold text-black">28</div>
+                  <div className="text-xs text-black">SEP</div>
                 </div>
               </div>
-              <div className="text-sm text-trinity-text-light">
+              <div className="text-sm text-black">
                 <div className="flex items-center mb-1">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -115,6 +123,7 @@ const Home: React.FC = () => {
                   </svg>
                   Trinity Stadium
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -131,29 +140,41 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">This Week's Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="card-hover">
-              <div className="text-sm text-trinity-secondary font-semibold mb-2">Monday</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Rehearsal</h3>
-              <p className="text-trinity-text-light text-sm mb-2">3:30 PM - 5:00 PM</p>
-              <p className="text-trinity-text-light text-sm">Band Room</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="text-sm text-black font-semibold mb-2">Monday</div>
+                <h3 className="text-lg font-semibold text-black mb-2">Rehearsal</h3>
+                <p className="text-black text-sm mb-2">3:30 PM - 5:00 PM</p>
+                <p className="text-black text-sm">Band Room</p>
+              </div>
             </div>
-            <div className="card-hover">
-              <div className="text-sm text-trinity-secondary font-semibold mb-2">Wednesday</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Sectionals</h3>
-              <p className="text-trinity-text-light text-sm mb-2">3:30 PM - 4:30 PM</p>
-              <p className="text-trinity-text-light text-sm">Various Rooms</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="text-sm text-black font-semibold mb-2">Wednesday</div>
+                <h3 className="text-lg font-semibold text-black mb-2">Sectionals</h3>
+                <p className="text-black text-sm mb-2">3:30 PM - 4:30 PM</p>
+                <p className="text-black text-sm">Various Rooms</p>
+              </div>
             </div>
-            <div className="card-hover">
-              <div className="text-sm text-trinity-secondary font-semibold mb-2">Friday</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Football Game</h3>
-              <p className="text-trinity-text-light text-sm mb-2">7:00 PM</p>
-              <p className="text-trinity-text-light text-sm">Home Stadium</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="text-sm text-black font-semibold mb-2">Friday</div>
+                <h3 className="text-lg font-semibold text-black mb-2">Football Game</h3>
+                <p className="text-black text-sm mb-2">7:00 PM</p>
+                <p className="text-black text-sm">Home Stadium</p>
+              </div>
             </div>
-            <div className="card-hover">
-              <div className="text-sm text-trinity-secondary font-semibold mb-2">Saturday</div>
-              <h3 className="text-lg font-semibold text-white mb-2">Competition</h3>
-              <p className="text-trinity-text-light text-sm mb-2">9:00 AM</p>
-              <p className="text-trinity-text-light text-sm">Regional Competition</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="text-sm text-black font-semibold mb-2">Saturday</div>
+                <h3 className="text-lg font-semibold text-black mb-2">Competition</h3>
+                <p className="text-black text-sm mb-2">9:00 AM</p>
+                <p className="text-black text-sm">Regional Competition</p>
+              </div>
             </div>
           </div>
         </div>
@@ -164,32 +185,41 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Weekly Highlights</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="card-hover overflow-hidden">
-              <div className="aspect-video bg-trinity-gray-dark flex items-center justify-center mb-4">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="aspect-video bg-gray-200 flex items-center justify-center">
                 <svg className="w-16 h-16 text-trinity-secondary" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Spring Concert Preview</h3>
-              <p className="text-trinity-text-light text-sm">Watch highlights from our recent rehearsal</p>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold text-black mb-2">Spring Concert Preview</h3>
+                <p className="text-black text-sm">Watch highlights from our recent rehearsal</p>
+              </div>
             </div>
-            <div className="card-hover overflow-hidden">
-              <div className="aspect-video bg-trinity-gray-dark flex items-center justify-center mb-4">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="aspect-video bg-gray-200 flex items-center justify-center">
                 <svg className="w-16 h-16 text-trinity-secondary" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Competition Photos</h3>
-              <p className="text-trinity-text-light text-sm">Gallery from last week's performance</p>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold text-black mb-2">Competition Photos</h3>
+                <p className="text-black text-sm">Gallery from last week's performance</p>
+              </div>
             </div>
-            <div className="card-hover overflow-hidden">
-              <div className="aspect-video bg-trinity-gray-dark flex items-center justify-center mb-4">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="aspect-video bg-gray-200 flex items-center justify-center">
                 <svg className="w-16 h-16 text-trinity-secondary" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Behind the Scenes</h3>
-              <p className="text-trinity-text-light text-sm">A day in the life of the band</p>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold text-black mb-2">Behind the Scenes</h3>
+                <p className="text-black text-sm">A day in the life of the band</p>
+              </div>
             </div>
           </div>
         </div>
@@ -200,24 +230,27 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Student of the Month</h2>
           <div className="max-w-3xl mx-auto">
-            <div className="card-hover text-center">
-              <div className="w-32 h-32 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-2">John Smith</h3>
-              <p className="text-trinity-secondary font-semibold mb-4">Senior - Trumpet Section</p>
-              <p className="text-trinity-text-light mb-4">
-                John has demonstrated exceptional leadership and dedication this month. His commitment to excellence 
-                and willingness to help fellow band members has made a significant impact on our program.
-              </p>
-              <div className="flex justify-center gap-4 text-sm text-trinity-text-light">
-                <div>
-                  <span className="font-semibold text-white">Section:</span> Brass
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-32 h-32 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
                 </div>
-                <div>
-                  <span className="font-semibold text-white">Years:</span> 4
+                <h3 className="text-2xl font-bold text-black mb-2">John Smith</h3>
+                <p className="text-black font-semibold mb-4">Senior - Trumpet Section</p>
+                <p className="text-black mb-4">
+                  John has demonstrated exceptional leadership and dedication this month. His commitment to excellence 
+                  and willingness to help fellow band members has made a significant impact on our program.
+                </p>
+                <div className="flex justify-center gap-4 text-sm text-black">
+                  <div>
+                    <span className="font-semibold text-black">Section:</span> Brass
+                  </div>
+                  <div>
+                    <span className="font-semibold text-black">Years:</span> 4
+                  </div>
                 </div>
               </div>
             </div>
@@ -230,21 +263,24 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Section of the Week</h2>
           <div className="max-w-3xl mx-auto">
-            <div className="card-hover">
-              <div className="flex flex-col md:flex-row items-center gap-6">
-                <div className="w-32 h-32 bg-trinity-secondary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                  </svg>
-                </div>
-                <div className="text-center md:text-left">
-                  <h3 className="text-2xl font-bold text-white mb-2">Percussion Section</h3>
-                  <p className="text-trinity-secondary font-semibold mb-4">Featured This Week</p>
-                  <p className="text-trinity-text-light">
-                    The Percussion Section has shown outstanding teamwork and precision in recent performances. 
-                    Their dedication to perfecting complex rhythms and maintaining perfect timing has been exemplary. 
-                    Congratulations on being Section of the Week!
-                  </p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="flex flex-col md:flex-row items-center gap-6">
+                  <div className="w-32 h-32 bg-trinity-secondary rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                    </svg>
+                  </div>
+                  <div className="text-center md:text-left">
+                    <h3 className="text-2xl font-bold text-black mb-2">Percussion Section</h3>
+                    <p className="text-black font-semibold mb-4">Featured This Week</p>
+                    <p className="text-black">
+                      The Percussion Section has shown outstanding teamwork and precision in recent performances. 
+                      Their dedication to perfecting complex rhythms and maintaining perfect timing has been exemplary. 
+                      Congratulations on being Section of the Week!
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -277,38 +313,47 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Why Choose Trinity Trojan Band?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Musical Excellence</h3>
+                <p className="text-black">
+                  Award-winning performances and comprehensive music education programs
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Musical Excellence</h3>
-              <p className="text-trinity-text-light">
-                Award-winning performances and comprehensive music education programs
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Community Building</h3>
+                <p className="text-black">
+                  Fostering lasting friendships and building character through music
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Community Building</h3>
-              <p className="text-trinity-text-light">
-                Fostering lasting friendships and building character through music
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Performance Opportunities</h3>
+                <p className="text-black">
+                  Regular concerts, competitions, and special event performances
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Performance Opportunities</h3>
-              <p className="text-trinity-text-light">
-                Regular concerts, competitions, and special event performances
-              </p>
             </div>
           </div>
         </div>
@@ -393,43 +438,55 @@ const Home: React.FC = () => {
           <h2 className="section-title">Quick Access</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <Link to="/events" className="group">
-              <div className="card-hover text-center group-hover:border-white transition-all duration-200">
-                <div className="w-12 h-12 bg-trinity-primary-light rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary transition-colors duration-200">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="white" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
+              <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+                <div className="h-3 bg-trinity-secondary" />
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-trinity-secondary rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary-dark transition-colors duration-200">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-black">Events</h3>
                 </div>
-                <h3 className="font-semibold text-white">Events</h3>
               </div>
             </Link>
             <Link to="/store" className="group">
-              <div className="card-hover text-center group-hover:border-white transition-all duration-200">
-                <div className="w-12 h-12 bg-trinity-primary-light rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary transition-colors duration-200">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="white" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                  </svg>
+              <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+                <div className="h-3 bg-trinity-secondary" />
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-trinity-secondary rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary-dark transition-colors duration-200">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-black">Store</h3>
                 </div>
-                <h3 className="font-semibold text-white">Store</h3>
               </div>
             </Link>
             <Link to="/newsletter" className="group">
-              <div className="card-hover text-center group-hover:border-white transition-all duration-200">
-                <div className="w-12 h-12 bg-trinity-primary-light rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary transition-colors duration-200">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="white" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+              <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+                <div className="h-3 bg-trinity-secondary" />
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-trinity-secondary rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary-dark transition-colors duration-200">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-black">Newsletter</h3>
                 </div>
-                <h3 className="font-semibold text-white">Newsletter</h3>
               </div>
             </Link>
             <Link to="/sponsors" className="group">
-              <div className="card-hover text-center group-hover:border-white transition-all duration-200">
-                <div className="w-12 h-12 bg-trinity-primary-light rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary transition-colors duration-200">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="white" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
+              <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+                <div className="h-3 bg-trinity-secondary" />
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-trinity-secondary rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-trinity-secondary-dark transition-colors duration-200">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-black">Sponsors</h3>
                 </div>
-                <h3 className="font-semibold text-white">Sponsors</h3>
               </div>
             </Link>
           </div>
