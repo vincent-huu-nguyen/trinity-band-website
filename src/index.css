@@ -21,6 +21,12 @@
   .bg-white *, .bg-trinity-gray *, .bg-trinity-primary-light *, .bg-trinity-primary-lighter * {
     color: #1a1a1a;
   }
+
+  /* Keep icons white inside red circles on white cards */
+  .bg-white .bg-trinity-secondary,
+  .bg-white .bg-trinity-secondary * {
+    color: #ffffff !important;
+  }
 }
 
 @layer components {

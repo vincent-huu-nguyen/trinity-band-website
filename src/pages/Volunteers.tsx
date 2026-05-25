@@ -18,100 +18,118 @@ const Volunteers: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Volunteer Opportunities</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Event Support</h3>
-              <p className="text-trinity-text-light mb-4">
-                Help with concert setup, ticket sales, ushering, and event coordination
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> 2-4 hours per event</p>
-                <p><strong>Frequency:</strong> Monthly during concert season</p>
-              </div>
-            </div>
-
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Transportation</h3>
-              <p className="text-trinity-text-light mb-4">
-                Drive students to competitions, festivals, and off-campus performances
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> 4-8 hours per trip</p>
-                <p><strong>Frequency:</strong> 3-5 times per year</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Event Support</h3>
+                <p className="text-black mb-4">
+                  Help with concert setup, ticket sales, ushering, and event coordination
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> 2-4 hours per event</p>
+                  <p><strong>Frequency:</strong> Monthly during concert season</p>
+                </div>
               </div>
             </div>
 
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Fundraising</h3>
-              <p className="text-trinity-text-light mb-4">
-                Assist with fundraising events, donor relations, and grant writing
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> 5-10 hours per month</p>
-                <p><strong>Frequency:</strong> Ongoing throughout the year</p>
-              </div>
-            </div>
-
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Music Library</h3>
-              <p className="text-trinity-text-light mb-4">
-                Organize sheet music, maintain instrument inventory, and assist with repairs
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> 2-3 hours per week</p>
-                <p><strong>Frequency:</strong> Weekly during school year</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Transportation</h3>
+                <p className="text-black mb-4">
+                  Drive students to competitions, festivals, and off-campus performances
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> 4-8 hours per trip</p>
+                  <p><strong>Frequency:</strong> 3-5 times per year</p>
+                </div>
               </div>
             </div>
 
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Administrative</h3>
-              <p className="text-trinity-text-light mb-4">
-                Help with data entry, newsletter distribution, and social media management
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> 3-5 hours per week</p>
-                <p><strong>Frequency:</strong> Weekly, flexible schedule</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Fundraising</h3>
+                <p className="text-black mb-4">
+                  Assist with fundraising events, donor relations, and grant writing
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> 5-10 hours per month</p>
+                  <p><strong>Frequency:</strong> Ongoing throughout the year</p>
+                </div>
               </div>
             </div>
 
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Music Library</h3>
+                <p className="text-black mb-4">
+                  Organize sheet music, maintain instrument inventory, and assist with repairs
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> 2-3 hours per week</p>
+                  <p><strong>Frequency:</strong> Weekly during school year</p>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Special Projects</h3>
-              <p className="text-trinity-text-light mb-4">
-                Contribute to special initiatives like band camp, competitions, or community outreach
-              </p>
-              <div className="text-sm text-trinity-text-light">
-                <p><strong>Time Commitment:</strong> Varies by project</p>
-                <p><strong>Frequency:</strong> As needed</p>
+            </div>
+
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Administrative</h3>
+                <p className="text-black mb-4">
+                  Help with data entry, newsletter distribution, and social media management
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> 3-5 hours per week</p>
+                  <p><strong>Frequency:</strong> Weekly, flexible schedule</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Special Projects</h3>
+                <p className="text-black mb-4">
+                  Contribute to special initiatives like band camp, competitions, or community outreach
+                </p>
+                <div className="text-sm text-black">
+                  <p><strong>Time Commitment:</strong> Varies by project</p>
+                  <p><strong>Frequency:</strong> As needed</p>
+                </div>
               </div>
             </div>
           </div>
@@ -123,62 +141,68 @@ const Volunteers: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Upcoming Volunteer Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="card-hover border-l-4 border-trinity-secondary">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Spring Concert Setup</h3>
-                  <p className="text-trinity-text-light">Help prepare the auditorium and assist with logistics</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold text-black mb-2">Spring Concert Setup</h3>
+                    <p className="text-black">Help prepare the auditorium and assist with logistics</p>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-2xl font-bold text-black">14</div>
+                    <div className="text-sm text-black">MAY</div>
+                  </div>
                 </div>
-                <div className="text-right">
-                  <div className="text-2xl font-bold text-trinity-secondary">14</div>
-                  <div className="text-sm text-trinity-text-light">MAY</div>
+                <div className="space-y-2 text-sm text-black mb-4">
+                  <div className="flex items-center">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    3:00 PM - 6:00 PM
+                  </div>
+                  <div className="flex items-center">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Trinity High School Auditorium
+                  </div>
                 </div>
+                <button className="btn-primary w-full mt-4">Sign Up to Help</button>
               </div>
-              <div className="space-y-2 text-sm text-trinity-text-light mb-4">
-                <div className="flex items-center">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  3:00 PM - 6:00 PM
-                </div>
-                <div className="flex items-center">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  Trinity High School Auditorium
-                </div>
-              </div>
-              <button className="btn-primary w-full">Sign Up to Help</button>
             </div>
 
-            <div className="card-hover border-l-4 border-trinity-secondary">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Band Camp Support</h3>
-                  <p className="text-trinity-text-light">Assist with meals, supervision, and logistics during summer camp</p>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold text-black mb-2">Band Camp Support</h3>
+                    <p className="text-black">Assist with meals, supervision, and logistics during summer camp</p>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-2xl font-bold text-black">20</div>
+                    <div className="text-sm text-black">JUL</div>
+                  </div>
                 </div>
-                <div className="text-right">
-                  <div className="text-2xl font-bold text-trinity-secondary">20</div>
-                  <div className="text-sm text-trinity-text-light">JUL</div>
+                <div className="space-y-2 text-sm text-black mb-4">
+                  <div className="flex items-center">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    8:00 AM - 5:00 PM
+                  </div>
+                  <div className="flex items-center">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Trinity High School Campus
+                  </div>
                 </div>
+                <button className="btn-primary w-full mt-4">Sign Up to Help</button>
               </div>
-              <div className="space-y-2 text-sm text-trinity-text-light mb-4">
-                <div className="flex items-center">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  8:00 AM - 5:00 PM
-                </div>
-                <div className="flex items-center">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  Trinity High School Campus
-                </div>
-              </div>
-              <button className="btn-primary w-full">Sign Up to Help</button>
             </div>
           </div>
         </div>
@@ -302,42 +326,53 @@ const Volunteers: React.FC = () => {
       </section>
 
       {/* Volunteer Benefits */}
-      <section className="py-16 bg-trinity-primary text-white">
+      <section className="py-16 bg-trinity-primary-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Benefits of Volunteering</h2>
+          <h2 className="section-title">Benefits of Volunteering</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Community Connection</h3>
+                <p className="text-black">
+                  Build meaningful relationships with students, parents, and fellow volunteers
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Community Connection</h3>
-              <p className="text-trinity-primary-lighter">
-                Build meaningful relationships with students, parents, and fellow volunteers
-              </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Skill Development</h3>
+                <p className="text-black">
+                  Gain valuable experience in event planning, organization, and leadership
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Skill Development</h3>
-              <p className="text-trinity-primary-lighter">
-                Gain valuable experience in event planning, organization, and leadership
-              </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Personal Fulfillment</h3>
+                <p className="text-black">
+                  Experience the joy of contributing to students' musical growth and success
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Personal Fulfillment</h3>
-              <p className="text-trinity-primary-lighter">
-                Experience the joy of contributing to students' musical growth and success
-              </p>
             </div>
           </div>
         </div>

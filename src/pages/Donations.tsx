@@ -18,38 +18,47 @@ const Donations: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Where Your Donations Make a Difference</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Instrument Purchases</h3>
+                <p className="text-black">
+                  Help us acquire quality instruments and equipment for students who cannot afford their own
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Instrument Purchases</h3>
-              <p className="text-trinity-text-light">
-                Help us acquire quality instruments and equipment for students who cannot afford their own
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Competition Travel</h3>
+                <p className="text-black">
+                  Support our students' participation in regional and national competitions and festivals
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Competition Travel</h3>
-              <p className="text-trinity-text-light">
-                Support our students' participation in regional and national competitions and festivals
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Educational Resources</h3>
+                <p className="text-black">
+                  Fund music theory materials, sheet music, and professional development opportunities
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Educational Resources</h3>
-              <p className="text-trinity-text-light">
-                Fund music theory materials, sheet music, and professional development opportunities
-              </p>
             </div>
           </div>
         </div>
@@ -59,64 +68,68 @@ const Donations: React.FC = () => {
       <section className="py-16 bg-trinity-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Donation Tiers</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="card-hover text-center">
-              <div className="bg-trinity-primary-light text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
-                <h3 className="text-lg font-semibold">Friend</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-semibold text-black mb-4">Friend</h3>
+                <div className="text-3xl font-bold text-black mb-2">$25</div>
+                <p className="text-black text-sm mb-4">Monthly</p>
+                <ul className="text-sm text-black space-y-2 mb-6 flex-1">
+                  <li>• Recognition in program</li>
+                  <li>• Newsletter updates</li>
+                  <li>• Invitation to events</li>
+                </ul>
+                <button className="btn-primary w-full">Donate Now</button>
               </div>
-              <div className="text-3xl font-bold text-white mb-2">$25</div>
-              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
-                <li>• Recognition in program</li>
-                <li>• Newsletter updates</li>
-                <li>• Invitation to events</li>
-              </ul>
-              <button className="btn-primary w-full">Donate Now</button>
             </div>
 
-            <div className="card-hover text-center border-2 border-trinity-secondary">
-              <div className="bg-trinity-secondary text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
-                <h3 className="text-lg font-semibold">Supporter</h3>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-semibold text-black mb-4">Supporter</h3>
+                <div className="text-3xl font-bold text-black mb-2">$50</div>
+                <p className="text-black text-sm mb-4">Monthly</p>
+                <ul className="text-sm text-black space-y-2 mb-6 flex-1">
+                  <li>• All Friend benefits</li>
+                  <li>• Name on donor wall</li>
+                  <li>• VIP event seating</li>
+                  <li>• Annual report</li>
+                </ul>
+                <button className="btn-primary w-full">Donate Now</button>
               </div>
-              <div className="text-3xl font-bold text-white mb-2">$50</div>
-              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
-                <li>• All Friend benefits</li>
-                <li>• Name on donor wall</li>
-                <li>• VIP event seating</li>
-                <li>• Annual report</li>
-              </ul>
-              <button className="btn-primary w-full">Donate Now</button>
             </div>
 
-            <div className="card-hover text-center">
-              <div className="bg-trinity-primary text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
-                <h3 className="text-lg font-semibold">Patron</h3>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-semibold text-black mb-4">Patron</h3>
+                <div className="text-3xl font-bold text-black mb-2">$100</div>
+                <p className="text-black text-sm mb-4">Monthly</p>
+                <ul className="text-sm text-black space-y-2 mb-6 flex-1">
+                  <li>• All Supporter benefits</li>
+                  <li>• Meet & greet with director</li>
+                  <li>• Exclusive concert access</li>
+                  <li>• Personalized thank you</li>
+                </ul>
+                <button className="btn-primary w-full">Donate Now</button>
               </div>
-              <div className="text-3xl font-bold text-white mb-2">$100</div>
-              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
-                <li>• All Supporter benefits</li>
-                <li>• Meet & greet with director</li>
-                <li>• Exclusive concert access</li>
-                <li>• Personalized thank you</li>
-              </ul>
-              <button className="btn-primary w-full">Donate Now</button>
             </div>
 
-            <div className="card-hover text-center">
-              <div className="bg-trinity-primary-dark text-white py-4 rounded-t-lg -mt-6 mx-6 mb-4">
-                <h3 className="text-lg font-semibold">Benefactor</h3>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-semibold text-black mb-4">Benefactor</h3>
+                <div className="text-3xl font-bold text-black mb-2">$250</div>
+                <p className="text-black text-sm mb-4">Monthly</p>
+                <ul className="text-sm text-black space-y-2 mb-6 flex-1">
+                  <li>• All Patron benefits</li>
+                  <li>• Instrument naming rights</li>
+                  <li>• Board meeting invitation</li>
+                  <li>• Legacy recognition</li>
+                </ul>
+                <button className="btn-primary w-full">Donate Now</button>
               </div>
-              <div className="text-3xl font-bold text-white mb-2">$250</div>
-              <p className="text-trinity-text-light text-sm mb-4">Monthly</p>
-              <ul className="text-sm text-trinity-text-light space-y-2 mb-6">
-                <li>• All Patron benefits</li>
-                <li>• Instrument naming rights</li>
-                <li>• Board meeting invitation</li>
-                <li>• Legacy recognition</li>
-              </ul>
-              <button className="btn-primary w-full">Donate Now</button>
             </div>
           </div>
         </div>
@@ -228,38 +241,47 @@ const Donations: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Other Ways to Give</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Planned Giving</h3>
+                <p className="text-black">
+                  Include Trinity Band in your estate planning and create a lasting legacy
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Planned Giving</h3>
-              <p className="text-trinity-primary-lighter">
-                Include Trinity Band in your estate planning and create a lasting legacy
-              </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Corporate Matching</h3>
+                <p className="text-black">
+                  Many employers match charitable contributions - check if yours does
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Corporate Matching</h3>
-              <p className="text-trinity-primary-lighter">
-                Many employers match charitable contributions - check if yours does
-              </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center h-full flex flex-col">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">In-Kind Donations</h3>
+                <p className="text-black">
+                  Donate instruments, equipment, or services to support our program
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3">In-Kind Donations</h3>
-              <p className="text-trinity-primary-lighter">
-                Donate instruments, equipment, or services to support our program
-              </p>
             </div>
           </div>
         </div>

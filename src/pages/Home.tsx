@@ -102,7 +102,7 @@ const Home: React.FC = () => {
               <div className="flex items-start justify-between mb-3">
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-1">Football Game</h3>
-                  <p className="text-sm text-black">Marching band performance</p>
+                  <p className="text-sm text-black">Home marching band performance</p>
                 </div>
                 <div className="text-right">
                   <div className="text-xl font-bold text-black">28</div>
@@ -293,7 +293,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex flex-col items-center">
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6">
-              <svg className="w-10 h-10 text-trinity-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-10 h-10" fill="none" stroke="#dc2626" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
             </div>
@@ -301,7 +301,7 @@ const Home: React.FC = () => {
             <p className="text-xl text-white mb-6 max-w-2xl">
               Get your Trinity Trojan Band merchandise, uniforms, and accessories
             </p>
-            <Link to="/store" className="bg-white text-trinity-secondary hover:bg-trinity-primary-lighter font-bold text-lg px-10 py-4 rounded transition-colors duration-200">
+            <Link to="/store" className="bg-white !text-trinity-secondary hover:bg-trinity-primary-lighter font-bold text-lg px-10 py-4 rounded transition-colors duration-200">
               Shop Now
             </Link>
           </div>

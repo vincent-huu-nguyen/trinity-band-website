@@ -32,40 +32,43 @@ const About: React.FC = () => {
                 appreciation for music.
               </p>
             </div>
-            <div className="bg-trinity-primary rounded-lg p-8">
-              <h3 className="text-2xl font-semibold text-white mb-4 text-center">Core Values</h3>
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+            <div className="rounded-lg shadow-lg bg-trinity-primary text-white overflow-hidden hover:shadow-xl transition-all duration-200">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-8">
+                <h3 className="text-2xl font-semibold text-white mb-4 text-center">Core Values</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center">
+                    <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4 text-white">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-white font-medium">Excellence in Performance</span>
                   </div>
-                  <span className="text-white font-medium">Excellence in Performance</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+                  <div className="flex items-center">
+                    <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4 text-white">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-white font-medium">Character Development</span>
                   </div>
-                  <span className="text-white font-medium">Character Development</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+                  <div className="flex items-center">
+                    <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4 text-white">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-white font-medium">Community Engagement</span>
                   </div>
-                  <span className="text-white font-medium">Community Engagement</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4">
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+                  <div className="flex items-center">
+                    <div className="w-8 h-8 bg-trinity-secondary rounded-full flex items-center justify-center mr-4 text-white">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-white font-medium">Lifelong Learning</span>
                   </div>
-                  <span className="text-white font-medium">Lifelong Learning</span>
                 </div>
               </div>
             </div>
@@ -78,38 +81,47 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Program Overview</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Concert Band</h3>
+                <p className="text-black">
+                  Our flagship ensemble featuring advanced repertoire and performance opportunities
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Concert Band</h3>
-              <p className="text-trinity-text-light">
-                Our flagship ensemble featuring advanced repertoire and performance opportunities
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Marching Band</h3>
+                <p className="text-black">
+                  Dynamic performances combining music and movement for football games and parades
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Marching Band</h3>
-              <p className="text-trinity-text-light">
-                Dynamic performances combining music and movement for football games and parades
-              </p>
             </div>
-            <div className="card-hover text-center">
-              <div className="w-16 h-16 bg-trinity-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+            <div className="rounded-lg shadow-lg bg-white text-black overflow-hidden hover:shadow-xl transition-all duration-200 text-center">
+              <div className="h-3 bg-trinity-secondary" />
+              <div className="p-6">
+                <div className="w-16 h-16 bg-trinity-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-black mb-3">Music Theory</h3>
+                <p className="text-black">
+                  Comprehensive education in music fundamentals, composition, and analysis
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Music Theory</h3>
-              <p className="text-trinity-text-light">
-                Comprehensive education in music fundamentals, composition, and analysis
-              </p>
             </div>
           </div>
         </div>
